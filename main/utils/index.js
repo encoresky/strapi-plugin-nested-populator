@@ -11,7 +11,7 @@ const extractModelAttributes = (model) => {
 
 const buildPopulateTree = (modelUid, maxDepth = 20, ignore = []) => {
   const skipCreatorFields = strapi
-    .plugin('strapi-plugin-nested-populator')
+    .plugin('@encoreskytech/strapi-plugin-nested-populator')
     ?.config('skipCreatorFields');
 
   // Base conditions to terminate recursion.

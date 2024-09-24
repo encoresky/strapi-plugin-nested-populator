@@ -3,6 +3,7 @@ Unleash the full potential of your Strapi content with nested, customizable popu
 
 ## Features
 
+  - Compatible with [strapi v5](https://docs.strapi.io) and lower strapi versions
   - Effortlessly populate nested content structures via REST API
   - Customize population depth on-the-fly
   - Works seamlessly with all collections and single types
@@ -10,9 +11,9 @@ Unleash the full potential of your Strapi content with nested, customizable popu
 
 ## Installation
 
-`npm install strapi-plugin-nested-populator`
+`npm i @encoreskytech/strapi-plugin-nested-populator`
 
-`yarn add strapi-plugin-nested-populator`
+`yarn add @encoreskytech/strapi-plugin-nested-populator`
 
 
 ## Usages
@@ -37,7 +38,7 @@ Tailor the default depth to your needs by editing `config/plugins.js`
 
 ```
 module.exports = ({ env }) => ({
-  'strapi-plugin-nested-populator': {
+  '@encoreskytech/strapi-plugin-nested-populator': {
     config: {
       defaultDepth: 4, // Default is 6
     }
