@@ -1,5 +1,5 @@
 {
-  "name": "strapi-plugin-nested-populator",
+  "name": "@encoreskytech/strapi-plugin-nested-populator",
   "version": "1.0.0",
   "description": "Strapi plugin that populates nested content structures via REST API",
   "strapi": {
@@ -7,15 +7,11 @@
     "description": "Api helper to populate nested content structures.",
     "kind": "plugin"
   },
-  "dependencies": {},
-  "author": {
-    "name": "EncoreSky Technologies"
+  "publishConfig": {
+    "access": "public"
   },
-  "maintainers": [
-    {
-      "name": "EncoreSky Technologies"
-    }
-  ],
+  "dependencies": {},
+  "author": "EncoreSky Technologies",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/encoresky/strapi-plugin-nested-populator.git"
