@@ -45,10 +45,6 @@ module.exports = ({ env }) => ({
 });
 ```
 
-## Keywords
-
-strapi, strapi plugin, populate, strapi populate, custom populate, depth, custom depth, deep populate, nested, nested fetch, nested populate
-
 ## Contributing
 
 We welcome contributions! Feel free to open issues or submit pull requests to help improve this plugin.

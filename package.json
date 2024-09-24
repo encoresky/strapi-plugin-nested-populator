@@ -18,11 +18,24 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/encoresky/strapi-plugin-nested-populator"
+    "url": "git+https://github.com/encoresky/strapi-plugin-nested-populator.git"
   },
-  "engines": {
-    "node": ">=14.19.1 <=20.x.x",
-    "npm": ">=6.0.0"
+  "keywords": [
+    "strapi",
+    "strapi plugin",
+    "populate",
+    "strapi populate",
+    "custom populate",
+    "depth",
+    "custom depth",
+    "deep populate",
+    "nested",
+    "nested fetch",
+    "nested populate"
+  ],
+  "bugs": {
+    "url": "https://github.com/encoresky/strapi-plugin-nested-populator/issues"
   },
+  "homepage": "https://github.com/encoresky/strapi-plugin-nested-populator#readme",
   "license": "MIT"
 }
