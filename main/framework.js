@@ -13,7 +13,7 @@ module.exports = ({ strapi }) => {
 
       // Get the default depth from plugin config, fallback to 5 if undefined.
       const defaultDepth = strapi
-        .plugin('@encoreskytech/strapi-plugin-nested-populator')
+        .plugin('strapi-plugin-nested-populator')
         ?.config('defaultDepth') || 5;
 
       // Apply population logic if 'nested' population is requested.

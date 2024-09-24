@@ -1,9 +1,9 @@
 {
   "name": "@encoreskytech/strapi-plugin-nested-populator",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Strapi plugin that populates nested content structures via REST API",
   "strapi": {
-    "name": "@encoreskytech/strapi-plugin-nested-populator",
+    "name": "strapi-plugin-nested-populator",
     "description": "Api helper to populate nested content structures.",
     "kind": "plugin"
   },

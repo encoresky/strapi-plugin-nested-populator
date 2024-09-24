@@ -38,7 +38,7 @@ Tailor the default depth to your needs by editing `config/plugins.js`
 
 ```
 module.exports = ({ env }) => ({
-  '@encoreskytech/strapi-plugin-nested-populator': {
+  'strapi-plugin-nested-populator': {
     config: {
       defaultDepth: 4, // Default is 6
     }
