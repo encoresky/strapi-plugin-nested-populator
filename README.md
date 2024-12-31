@@ -26,6 +26,10 @@ Unleash the full potential of your Strapi content with nested, customizable popu
 
     `/api/pages?customPopulate=nested&customDepth=4`
 
+  - Ignore custom properties
+
+    `/api/pages?customPopulate=nested&customIgnored[]=images&customIgnored[]=videos`
+
 ## Good to know
 
   - Default maximum depth: 6 levels
